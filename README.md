@@ -54,7 +54,7 @@ reportWebVitals();
 2. eslint-config-prettier をインストール
    `npm install --save-dev eslint-config-prettier`
 3. ESLint の設定ファイルに prettier 追記（.eslintrc.js）
-4. エラーが出るので、.eslintrc.js の 「'prettier/react'」をコメントアウト
+4. `Error: "prettier/react" has been merged into "prettier" in eslint-config-prettier 8.0.0.`というエラーが出るので、.eslintrc.js の 「'prettier/react'」を削除(「prettier/react」は「prettier」に統合された)
 
 ## VS コードの設定
 

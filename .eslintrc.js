@@ -8,8 +8,7 @@ module.exports = {
     'react-app/jest',
     'eslint:recommended',
     'plugin:react/recommended',
-    'prettier',
-    // 'prettier/react'
+    'prettier'
   ],
   parserOptions: {
     ecmaFeatures: {
